@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.fuse.openshift.examples</groupId>
-  <artifactId>camel-hello-world</artifactId>
+  <artifactId>camel-queue-reader</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>Camel Hello World</name>
-  <description>Camel Hello World in custom JBoss Fuse/Karaf assembly</description>
+  <name>Camel Queue Reader</name>
+  <description>Camel Queue Reader  in custom JBoss Fuse/Karaf assembly</description>
   <properties>
     <fabric8.label.group>quickstarts</fabric8.label.group>
     <fabric8.dockerPrefix>docker.io/</fabric8.dockerPrefix>
