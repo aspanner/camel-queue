@@ -34,7 +34,12 @@
       While it is not required to assign id's to the <camelContext/> and <route/> elements, it is a good idea
       to set those for runtime management purposes (logging, JMX MBeans, ...)
     -->
-    <camelContext id="log-example-context" xmlns="http://camel.apache.org/schema/blueprint">
+    
+   <bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
+      <property name="brokerURL" value="tcp://broker-amq-tcp:61616"/>
+  </bean> 
+    
+  <camelContext id="log-example-context" xmlns="http://camel.apache.org/schema/blueprint">
   <route id="log-route"> 
     <from uri="activemq:queue:q1"/>
     <log message="&gt;&gt;&gt; ${body} : ${sys.runtime.id}"/>
