@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.fuse.openshift.examples</groupId>
-  <artifactId>camel-queue-reader</artifactId>
+  <artifactId>camel-hello-world</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Camel Queue Reader</name>
